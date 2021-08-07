@@ -1,19 +1,76 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <title>P2</title>
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <meta charset="utf-8">
+    <title>P2</title>
+    <link rel="stylesheet" type="text/css" href="./fonts/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
-<header><img src="Reservia@3x.png" alt="Logo du site reservia" style="width: 100px;"/></header>
-  
-    <h1>Trouver votre hébergement pour des vacances de rêves</h1>
-    <p>En plein centre ville ou en pleine nature</p>
-    <p><strong>Marseille, France</strong></p>
-    <header><img src="dog-solid.svg" alt="Logo dog" style="width: 20px;"/></header>
-    <p>Plus de 500 logements sont diponibles dans ce centre</p>
-    <p><strong>Hébergement à Marseille</strong></p>
-    
+<main>
+    <header role="banner" class="main-header">
+        <div class="container">
+            <div class="logo-wrapper">
+                <img class="logo" src="./img/logo/Reservia.svg" alt="Reservia">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li class="current">
+                        <a href="#">Hébergement</a>
+                    </li>
+                    <li>
+                        <a href="#">Activités</a>
+                    </li>
+                    <li>
+                        <a class="register" href="#">S'inscrire</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+        <p>En plein centre ville ou en pleine nature</p>
+        <i class="fa fa-car"></i>
+        <i class="fa fa-car" style="font-size:48px;"></i>
+    </div>
+
+    <div class="search">
+        Recherche
+    </div>
+
+    <div class="filter">
+        Filtre
+    </div>
+
+    <div class="info">Plus de 500 logements sont disponibles dans cette ville</div>
+
+    <!-- The flexible grid (content) -->
+    <div class="row">
+        <div class="main border-radius">
+            <h2>Hébergement à Marseille</h2>
+        </div>
+        <div class="side border-radius">
+            <h2>Les plus populaires</h2>
+
+            <h5>Photo of me:</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            <h3>More Text</h3>
+            <p>Lorem ipsum dolor sit ame.</p>
+            <div class="fakeimg" style="height:60px;">Image</div>
+            <br>
+            <div class="fakeimg" style="height:60px;">Image</div>
+            <br>
+            <div class="fakeimg" style="height:60px;">Image</div>
+        </div>
+    </div>
+</main>
+<!-- Footer -->
+<div class="footer">
+    <h2>Footer</h2>
+</div>
 </body>
 </html>
