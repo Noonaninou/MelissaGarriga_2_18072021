@@ -1,3 +1,20 @@
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -103,6 +120,55 @@ h2, p, div {
     background-color: #f1f1f1;
     padding: 40px;
 }
+
+.icon-blue {
+    color:#0065FC;
+}
+
+.border-radius-arrondig {
+    border-radius: 20px 0px 0px 20px
+}
+
+.border-radius-arrondid {
+    border-radius: 0px 20px 20px 0px;
+}
+
+/* Header*/
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px; 
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+   
+.recherche {
+    height: 50px ;
+    width: 200px ;
+}
+
+.iconSize {
+    height: 50px;
+    width: : 50px;
+}
+
+/* Filtre */
+.margFiltre {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.Filtre {
+    display: flex;
+    align-items: center;
+}
+
+.FiltreIcons {
+    order-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc
+}
+        
 
 /* Fake image, just for this example */
 .fakeimg {

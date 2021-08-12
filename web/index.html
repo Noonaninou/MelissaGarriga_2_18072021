@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>P2</title>
+    <title>Reservia</title>
     <link rel="stylesheet" type="text/css" href="./fonts/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -12,7 +12,7 @@
     <header role="banner" class="main-header">
         <div class="container">
             <div class="logo-wrapper">
-                <img class="logo" src="./img/logo/Reservia.svg" alt="Reservia">
+                <img class="logo" src="./img/logo/Reservia.svg" alt="Logo Reservia">
             </div>
             <nav class="main-nav">
                 <ul>
@@ -30,21 +30,36 @@
         </div>
     </header>
 
-    <div class="content">
-        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+        <h1
+        >Trouvez votre hébergement pour des vacances de rêve
+        </h1>
         <p>En plein centre ville ou en pleine nature</p>
-        <i class="fa fa-car"></i>
-        <i class="fa fa-car" style="font-size:48px;"></i>
+
+    <div class="flexAround"> 
+        <div><i class="fas fa-map-marker-alt"></i></div>
+        <div><input type="search" placeholder="Marseille, France" /></div>
+        <nav><div>Rechercher</div></nav>
+    </div>
+    <div classe="Filtre">
+       <div><h3>Filtre</h3></div>
+    <div>
+        <i class="fas fa-money-bill-wave"></i>
+        <div>Economie</div>
+    </div>
+    <div>
+        <i class="fas fa-child"></i>
+        <div>Familiale</div>
+    </div>
+    <div>
+        <i class="fas fa-heart"></i>
+        <div>Romantique</div>
+    </div> 
+    <div>   
+        <i class="fas fa-dog"></i>
+        <div>Animaux autorisés</div>
     </div>
 
-    <div class="search">
-        Recherche
-    </div>
-
-    <div class="filter">
-        Filtre
-    </div>
-
+    
     <div class="info">Plus de 500 logements sont disponibles dans cette ville</div>
 
     <!-- The flexible grid (content) -->
@@ -52,8 +67,9 @@
         <div class="main border-radius">
             <h2>Hébergement à Marseille</h2>
         </div>
-        <div class="side border-radius">
-            <h2>Les plus populaires</h2>
+        <class class="side border-radius">
+            <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
+            
 
             <h5>Photo of me:</h5>
             <div class="fakeimg" style="height:200px;">Image</div>
